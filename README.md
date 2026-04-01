@@ -82,7 +82,7 @@ Developed an interactive dashboard to visualize business performance:
 * Loss-making sub-category identification
 
 📸 Dashboard Preview:
-![Dashboard](images/dashboard-overview.png)
+![Dashboard](dashboard/Dashboard.jpg)
 
 ---
 
