@@ -12,7 +12,7 @@ DROP TABLE IF EXISTS staging CASCADE;
 CREATE TABLE staging (
     row_id        INT,
     order_id      VARCHAR(25),
-    order_date    VARCHAR(15),   -- raw string, parsed in Step 2
+    order_date    VARCHAR(15), 
     ship_date     VARCHAR(15),
     ship_mode     VARCHAR(50),
     customer_id   VARCHAR(20),
