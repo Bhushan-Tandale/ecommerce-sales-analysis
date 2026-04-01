@@ -1,30 +1,42 @@
-# 📊 Superstore Sales Analytics | SQL + Python + Power BI
+# 📊 Superstore Sales Analytics | SQL + Python + Excel + Power BI
 
 ## 📌 Project Overview
 
-This is an end-to-end data analytics project built using SQL, Python, and Power BI to analyze e-commerce sales performance. The project focuses on uncovering key business insights related to revenue, profitability, customer behavior, and operational efficiency.
+This is an end-to-end data analytics project analyzing e-commerce sales performance using SQL, Python, Excel, and Power BI. The project focuses on deriving actionable business insights related to revenue, profitability, customer behavior, and operational efficiency.
 
 ---
 
 ## 🎯 Objectives
 
 * Analyze overall business performance (sales, profit, orders)
-* Identify high-performing and loss-making product categories
+* Identify loss-making products and high-performing categories
 * Understand customer and regional trends
 * Evaluate the impact of discounts on profitability
-* Build an interactive dashboard for decision-making
+* Build interactive dashboards for business decision-making
 
 ---
 
 ## 🧱 Project Workflow
 
 ```plaintext
-Raw Dataset → SQL Data Modeling → Python EDA → Power BI Dashboard
+Raw Dataset → Excel Analysis → SQL Data Modeling → Python EDA → Power BI Dashboard
 ```
 
 ---
 
-## 🗄️ SQL (Data Modeling & Analysis)
+## 📊 Excel Analysis (Business Understanding)
+
+Performed initial analysis using Excel:
+
+* Created pivot tables for sales and profit analysis
+* Built a KPI dashboard for quick business insights
+* Analyzed trends across regions, categories, and customers
+
+📄 File: `excel/superstore_kpi_dashboard.xlsx`
+
+---
+
+## 🗄️ SQL (Data Modeling & Advanced Analysis)
 
 * Designed a **star schema** with fact and dimension tables
 * Created staging, customers, and orders tables
@@ -43,21 +55,21 @@ Raw Dataset → SQL Data Modeling → Python EDA → Power BI Dashboard
 
 ---
 
-## 🐍 Python (EDA & Data Exploration)
+## 🐍 Python (Exploratory Data Analysis)
 
-Performed exploratory data analysis using Python:
+Performed EDA using Python:
 
 * Data cleaning and preprocessing
 * Distribution analysis of sales and profit
 * Correlation analysis
 * Outlier detection
-* Visualization using Matplotlib/Seaborn
+* Visualizations using Matplotlib and Seaborn
 
 📄 Notebook: `python/Superstore_EDA.ipynb`
 
 ---
 
-## 📊 Power BI Dashboard
+## 📊 Power BI Dashboard (Final Output)
 
 Developed an interactive dashboard to visualize business performance:
 
@@ -76,9 +88,9 @@ Developed an interactive dashboard to visualize business performance:
 
 ## 📈 Key Insights
 
-* High discounts significantly reduce profitability
+* High discounts negatively impact profitability
 * Certain sub-categories consistently generate losses
-* Sales show seasonal patterns across months
+* Sales exhibit seasonal trends over time
 * Some regions generate high revenue but low profit margins
 
 ---
@@ -86,18 +98,19 @@ Developed an interactive dashboard to visualize business performance:
 ## 💡 Business Recommendations
 
 * Optimize discount strategies to improve margins
-* Focus on profitable product categories
-* Improve performance in low-margin regions
+* Focus on high-performing product categories
+* Improve profitability in low-margin regions
 * Reduce dependency on loss-making products
 
 ---
 
 ## 🛠️ Tools & Technologies
 
+* Excel (Pivot Tables, KPI Dashboard)
 * SQL (PostgreSQL)
 * Python (Pandas, Matplotlib, Seaborn)
-* Power BI
-* Data Modeling & Visualization
+* Power BI (Data Visualization)
+* Data Modeling
 
 ---
 
@@ -109,9 +122,10 @@ Superstore dataset (public dataset used for analytics practice)
 
 ## 🚀 How to Use
 
-1. Run SQL script to create and analyze data
-2. Explore Python notebook for EDA
-3. Open Power BI file to interact with dashboard
+1. Explore Excel dashboard for quick insights
+2. Run SQL scripts for structured analysis
+3. Use Python notebook for deep data exploration
+4. Open Power BI dashboard for interactive insights
 
 ---
 
