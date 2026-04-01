@@ -116,7 +116,7 @@ Developed an interactive dashboard to visualize business performance:
 
 ## 📂 Dataset
 
-Superstore dataset (public dataset used for analytics practice)
+Superstore dataset (public dataset)
 
 ---
 
