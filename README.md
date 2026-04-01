@@ -42,7 +42,7 @@ Performed initial analysis using Excel:
 * Created staging, customers, and orders tables
 * Implemented data cleaning and transformation
 
-📄 SQL File: 
+📄 SQL File: `sql/Superstor_SQL.sql`
 
 ### Key SQL Analysis:
 
@@ -131,4 +131,4 @@ Superstore dataset (public dataset used for analytics practice)
 
 ## 👤 Author
 
-Your Name
+Bhushan Tandale
