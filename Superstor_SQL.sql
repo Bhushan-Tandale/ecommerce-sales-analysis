@@ -99,6 +99,9 @@ SELECT
     profit
 FROM staging;
 
+-- Testing
+SELECT * FROM orders;
+SELECT * FROM customers;
 
 -- ============================================================
 -- Superstore Analytics: KPI Queries
